@@ -60,5 +60,5 @@ Tässä artikkelissa kerrotaan, kuinka voidaan luoda monta eri web-sivua saman I
 Loin itselleni tätä tehtävää varten kokonaan uuden virtuaalikoneen, koska minulle tuli aiemmin käyttämäni koneen kanssa ongelmia web-palvelimen luonnissa ja ajattelin aloittaa uuden palvelimen tekemisen puhtaalta pöydältä. Aloitin asentamalla Apache-palvelimen syöttämällä komentorivityökalussa komennon:
     ```$ sudo apt-get -y install apache2```
 Tämän jälkeen testasin selaimessa, että vastaako palvelin osoitteessa http://localhost/ ja minulle avautui seuraavanlainen näkymä:
-![
+![Screenshot_2024-02-03_15-17-21.png]
 
