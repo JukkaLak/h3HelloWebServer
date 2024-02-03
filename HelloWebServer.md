@@ -16,4 +16,5 @@
 # Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address
 
 Tässä artikkelissa kerrotaan, kuinka voidaan luoda monta eri web-sivua saman IP-osoitteen alle. Seuraavaksi kerrotaan askel askeleelta, miten se käytännössä tehdään.
-- 
+- Ensimmäiseksi asennetaan Apachen web-serveri komennolla:
+     $ sudo apt-get -y install apache2
