@@ -10,4 +10,5 @@
 - Kun pyyntö tulee palvelimelle, palvelin löytää parhaiten vastaavan <VirtualHost>-argumentin perustuen pyynnön lähettäjän IP-osoitteeseen ja sen käyttämään porttiin.
 - Jos useampi kuin yksi isäntä jakaa saman IP-osoitteen ja portin, Apache vertaa edelleen niiden ServerName- ja ServerAlias-tietoja palvelimen nimeen.
 - Jos vastaavaa ServerName- tai ServerAlias-nimeä ei löydy, käytetään ensimmäistä vastaavaa palvelinta
-- 
+- Kun nimipohjaista virtuaali-isäntiä aletaan luomaan, ensimmäiseksi luodaan <VirtualHost>-lohko jokaiselle eri isännälle ja sen sisälle vähintään ServerName-käskyn, joka määrittää mitä isäntää palvellaan, ja sen lisäksi DocumentRoot-käskyn, joka näyttää, missä tiedostojärjestelmässä kyseisen isännän tiedot sijaitsevat
+- Myös ServerAlias-komento on hyvä olla, jos haluaa että palvelin on käytettävissä usealla eri nimellä
