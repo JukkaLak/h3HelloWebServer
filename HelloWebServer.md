@@ -17,4 +17,4 @@
 
 Tässä artikkelissa kerrotaan, kuinka voidaan luoda monta eri web-sivua saman IP-osoitteen alle. Seuraavaksi kerrotaan askel askeleelta, miten se käytännössä tehdään.
 - Ensimmäiseksi asennetaan Apachen web-serveri komennolla:
-    ´$ sudo apt-get -y install apache2´
+    ```$ sudo apt-get -y install apache2```
