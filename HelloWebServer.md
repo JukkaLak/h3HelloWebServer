@@ -55,3 +55,8 @@ Tässä artikkelissa kerrotaan, kuinka voidaan luoda monta eri web-sivua saman I
 - Tämän jälkeen sivustojen toimivuutta voi kokeilla selaimessa syöttämällä URL:n esimerkiksi:
 -     http://localhost/
 -     http://esimerkki.example.com
+
+# a) Web-palvelimen luonti
+Loin itselleni tätä tehtävää varten kokonaan uuden virtuaalikoneen, koska minulle tuli aiemmin käyttämäni koneen kanssa ongelmia web-palvelimen luonnissa ja ajattelin aloittaa uuden palvelimen tekemisen puhtaalta pöydältä. Aloitin asentamalla Apache-palvelimen syöttämällä komentorivityökalussa komennon:
+    ```$ sudo apt-get -y install apache2```
+
