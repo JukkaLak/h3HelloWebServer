@@ -23,13 +23,35 @@ Tässä artikkelissa kerrotaan, kuinka voidaan luoda monta eri web-sivua saman I
 - Seuraavaksi lisätään nimipohjainen virtuaali-isäntä seuraavilla komennoilla:
 -   ```sudoedit /etc/apache2/sites-available/esimerkki.example.com.conf```
 -   ```$ cat /etc/apache2/sites-available/esimerkki.example.com.conf```
--   Tämän jälkeen sinulle avautuu koodieditori, jossa syötetään seuraavat komennot:
--   ```<VirtualHost *:80>
-         ServerName pyora.example.com
-         ServerAlias www.pyora.example.com
-         DocumentRoot /home/xubuntu/publicsites/pyora.example.com
-         <Directory /home/xubuntu/publicsites/pyora.example.com>
+- Tämän jälkeen sinulle avautuu koodieditori, jossa syötetään seuraavat komennot:
+-   ```
+        <VirtualHost *:80>
+         ServerName esimerkki.example.com
+         ServerAlias www.esimerkki.example.com
+         DocumentRoot /home/xubuntu/publicsites/esimerkki.example.com
+         <Directory /home/xubuntu/publicsites/esimerkki.example.com>
            Require all granted
          </Directory>
-        </VirtualHost>```
-  
+        </VirtualHost>
+     ```
+- Tämän jälkeen syötä komennot:
+-   ```$ sudo a2ensite esimerkki.example.com```
+-   ```$ sudo systemctl restart apache2```
+- Seuraavaksi luodaan web-sivu normaalin käyttäjän oikeuksilla komennoilla:
+-   ```$ mkdir -p /home/xubuntu/publicsites/esimerkki.example.com/```
+-   ```$ echo pyora > /home/xubuntu/publicsites/pyora.example.com/index.html```
+- Seuraavaksi testataan web-sivun toimivuutta komennoilla:
+-    ```$ curl -H 'Host: esimerkki.example.com' localhost```
+-    ```$ curl localhost```
+- Oikeassa elämässä web-sivun nimen voi vuokrata joltakin palvelutarjoajalta, mutta tässä tapauksessa nimitiedot syötetään itse komennoilla
+-    ```$ sudoedit /etc/hosts```
+-    ```
+     $ cat /etc/hosts
+     127.0.0.1 localhost
+     127.0.1.1 xubuntu
+     127.0.0.1 esimerkki.example.com
+     # ...
+     ```
+- Tämän jälkeen sivustojen toimivuutta voi kokeilla selaimessa syöttämällä URL:n esimerkiksi:
+-     http://localhost/
+-     http://esimerkki.example.com
