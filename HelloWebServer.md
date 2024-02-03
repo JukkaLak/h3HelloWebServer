@@ -12,3 +12,8 @@
 - Jos vastaavaa ServerName- tai ServerAlias-nimeä ei löydy, käytetään ensimmäistä vastaavaa palvelinta
 - Kun nimipohjaista virtuaali-isäntiä aletaan luomaan, ensimmäiseksi luodaan <VirtualHost>-lohko jokaiselle eri isännälle ja sen sisälle vähintään ServerName-käskyn, joka määrittää mitä isäntää palvellaan, ja sen lisäksi DocumentRoot-käskyn, joka näyttää, missä tiedostojärjestelmässä kyseisen isännän tiedot sijaitsevat
 - Myös ServerAlias-komento on hyvä olla, jos haluaa että palvelin on käytettävissä usealla eri nimellä
+
+# Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address
+
+Tässä artikkelissa kerrotaan, kuinka voidaan luoda monta eri web-sivua saman IP-osoitteen alle. Seuraavaksi kerrotaan askel askeleelta, miten se käytännössä tehdään.
+- 
