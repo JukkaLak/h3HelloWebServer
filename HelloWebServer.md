@@ -25,11 +25,11 @@ Tässä artikkelissa kerrotaan, kuinka voidaan luoda monta eri web-sivua saman I
 -   ```$ cat /etc/apache2/sites-available/esimerkki.example.com.conf```
 -   Tämän jälkeen sinulle avautuu koodieditori, jossa syötetään seuraavat komennot:
 -   ```<VirtualHost *:80>
- ServerName pyora.example.com
- ServerAlias www.pyora.example.com
- DocumentRoot /home/xubuntu/publicsites/pyora.example.com
- <Directory /home/xubuntu/publicsites/pyora.example.com>
-   Require all granted
- </Directory>
-</VirtualHost>```
+         ServerName pyora.example.com
+         ServerAlias www.pyora.example.com
+         DocumentRoot /home/xubuntu/publicsites/pyora.example.com
+         <Directory /home/xubuntu/publicsites/pyora.example.com>
+           Require all granted
+         </Directory>
+        </VirtualHost>```
   
