@@ -18,3 +18,18 @@
 Tässä artikkelissa kerrotaan, kuinka voidaan luoda monta eri web-sivua saman IP-osoitteen alle. Seuraavaksi kerrotaan askel askeleelta, miten se käytännössä tehdään.
 - Ensimmäiseksi asennetaan Apachen web-serveri komennolla:
     ```$ sudo apt-get -y install apache2```
+- Sen jälkeen vaihdetaan oletuksena oleva web-osoite komennolla:
+    ```echo "Default"|sudo paakayttaja /var/www/html/index.html```
+- Seuraavaksi lisätään nimipohjainen virtuaali-isäntä seuraavilla komennoilla:
+-   ```sudoedit /etc/apache2/sites-available/esimerkki.example.com.conf```
+-   ```$ cat /etc/apache2/sites-available/esimerkki.example.com.conf```
+-   Tämän jälkeen sinulle avautuu koodieditori, jossa syötetään seuraavat komennot:
+-   ```<VirtualHost *:80>
+ ServerName pyora.example.com
+ ServerAlias www.pyora.example.com
+ DocumentRoot /home/xubuntu/publicsites/pyora.example.com
+ <Directory /home/xubuntu/publicsites/pyora.example.com>
+   Require all granted
+ </Directory>
+</VirtualHost>```
+  
