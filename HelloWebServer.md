@@ -68,7 +68,10 @@ Tämän jälkeen selainnäkymä näytti tältä:
 ![Screenshot_2024-02-04_11-28-00.png](https://github.com/JukkaLak/h3HelloWebServer/blob/main/Screenshot_2024-02-04_11-28-00.png)
 
 # b) Lokin analysointi
-
+Ensiksi katsoin access.log tiedot komennolla 
+    ``sudo tail /var/log/apache2/access.log```
+Tämän jälkeen komentoriviin tuli seuraavat tiedot:
+![
 
 
 
