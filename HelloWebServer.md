@@ -64,6 +64,8 @@ Tämän jälkeen kokeilin selaimella vastaako palvelin osoitteessa http://localh
 
 Tämä siis tarkoitti sitä, että palvelin toimii. Tämän jälkeen poistin esimerkkisivun syöttämällä komennon 
     ``echo "Default"|sudo tee /var/www/html/index.html``
+Tämän jälkeen selainnäkymä näytti tältä:
+![Screenshot_2024-02-04_11-28-00.png]
 
 
 
