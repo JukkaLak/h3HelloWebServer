@@ -87,8 +87,16 @@ Tämän jälkeen syötin komennot
     ``sudo chown -R $USER:$USER /var/www/esimerkki.example.com`` ja
     ``sudo chmod -R 755 /var/www/esimerkki.example.com``
 Tämän jälkeen muokkasin sivuston etusivunäkymää micro-editorissa ja kirjoitin sinne seuraavanlaista html-koodia:
+![Screenshot_2024-02-04_15-23-09.png](https://github.com/JukkaLak/h3HelloWebServer/blob/main/Screenshot_2024-02-04_15-23-09.png)
 
+Tämän jälkeen avasin jälleen micro-editorin komennolla 
+    ```$ sudo micro /etc/apache2/sites-available/esimerkki.example.com.conf```
+Syötin editorissa aluksi tällaiset tiedot:
+![Screenshot_2024-02-04_15-45-32.png](https://github.com/JukkaLak/h3HelloWebServer/blob/main/Screenshot_2024-02-04_15-45-32.png)
 
+Tämän jälkeen yritin ajaa komennot 
+    ```sudo a2ensite esimerkki.example.com```ja käynnistää Apachen uudelleen ja kun testasin sivuston toimintaa, se toimi aluksi pelkästään localhostissa mutta ei osoitteessa http://esimerkki.example.com ja yritin vielä korjata tilannetta, mutta lopulta sivu ei toiminut ollenkaan, enkä saanut tätä ongelmaa ratkaistua.
+    
 
 
 
