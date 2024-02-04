@@ -80,6 +80,9 @@ Tämän jälkeen tulostui seuraavat tiedot:
 
 Tästä käy ilmi, että mitään virhetilanteita ei ole ehtinyt tulla ja palvelin toimii normaalisti.
 
+# c) Uuden nimipohjaisen virtuaali-isännän asennus
+Aloin asentamaan uutta nimipohjaista virtuaali-isäntää seuraamalla sivuston https://www.linuxcapable.com/how-to-install-apache-on-debian-linux/ tutoriaalia. 
+
 
 
 
