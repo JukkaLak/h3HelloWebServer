@@ -57,20 +57,9 @@ Tässä artikkelissa kerrotaan, kuinka voidaan luoda monta eri web-sivua saman I
 -     http://esimerkki.example.com
 
 # a) Web-palvelimen luonti
-Loin itselleni tätä tehtävää varten kokonaan uuden virtuaalikoneen, koska minulle tuli aiemmin käyttämäni koneen kanssa ongelmia web-palvelimen luonnissa ja ajattelin aloittaa uuden palvelimen tekemisen puhtaalta pöydältä. Aloitin asentamalla Apache-palvelimen syöttämällä komentorivityökalussa komennon:
+Olin jo valmiiksi luonut itselleni Apache web-palvelimen ja se tapahtui siten, että syötin komentorivillä komennon
     ```$ sudo apt-get -y install apache2```
-Tämän jälkeen testasin selaimessa, että vastaako palvelin osoitteessa http://localhost/ ja minulle avautui seuraavanlainen näkymä:
-![Screenshot_2024-02-03_15-17-21.png](https://github.com/JukkaLak/h3HelloWebServer/blob/main/Screenshot_2024-02-03_15-17-21.png)
 
-
-Tämä siis tarkoitti sitä, että palvelin toimii ja vastaa kutsuihin. Tämän jälkeen korvasin oletusetusivun syöttämällä komennon
-    ```$ echo "Default"|sudo tee /var/www/html/index.html```
-Tämän jälkeen selainnäkymä näytti tältä:
-![Screenshot_2024-02-04_11-28-00.png](https://github.com/JukkaLak/h3HelloWebServer/blob/main/Screenshot_2024-02-04_11-28-00.png)
-Tämän jälkeen avasin micro-editorin syöttämällä komennon
-    ``micro sudoedit /etc/apache2/sites-available/esimerkki.example.com.conf``
-Kun micro-editori aukesi, syötin seuraavat komennot:
-![Screenshot_2024-02-04_11-50-26.png]
 
 
 
