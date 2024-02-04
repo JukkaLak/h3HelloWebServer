@@ -71,7 +71,11 @@ Tämän jälkeen selainnäkymä näytti tältä:
 Ensiksi katsoin access.log tiedot komennolla 
     ``sudo tail /var/log/apache2/access.log```
 Tämän jälkeen komentoriviin tuli seuraavat tiedot:
-![Screenshot_2024-02-04_14-40-06.png]
+![Screenshot_2024-02-04_14-40-06.png](https://github.com/JukkaLak/h3HelloWebServer/blob/main/Screenshot_2024-02-04_14-40-06.png)
+Tästä listauksesta tulee ilmi se, että palvelimelle on tehty GET-pyyntöjä, eli palvelinta on kutsuttu osoitteesta http://localhost ja se on vastannut kutsuihin. 
+Seuraavaksi katsoin error.log -tiedot komennolla
+    ``sudo tail /var/log/apache2/error.log``
+
 
 
 
