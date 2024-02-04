@@ -59,7 +59,8 @@ Tässä artikkelissa kerrotaan, kuinka voidaan luoda monta eri web-sivua saman I
 # a) Web-palvelimen luonti
 Olin jo valmiiksi luonut itselleni Apache web-palvelimen ja se tapahtui siten, että syötin komentorivillä komennon
     ```$ sudo apt-get -y install apache2```
-
+Tämän jälkeen kokeilin selaimella vastaako palvelin osoitteessa http://localhost ja minulle avautui seuraavanlainen näkymä:
+![Screenshot_2024-02-03_15-17-21.png]
 
 
 
