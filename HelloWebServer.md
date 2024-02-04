@@ -81,7 +81,15 @@ Tämän jälkeen tulostui seuraavat tiedot:
 Tästä käy ilmi, että mitään virhetilanteita ei ole ehtinyt tulla ja palvelin toimii normaalisti.
 
 # c) Uuden nimipohjaisen virtuaali-isännän asennus
-Aloin asentamaan uutta nimipohjaista virtuaali-isäntää seuraamalla sivuston https://www.linuxcapable.com/how-to-install-apache-on-debian-linux/ tutoriaalia. 
+Aloin asentamaan uutta nimipohjaista virtuaali-isäntää seuraamalla sivuston https://www.linuxcapable.com/how-to-install-apache-on-debian-linux/ tutoriaalia. Aluksi loin uuden kansion komennolla 
+    ``sudo mkdir /var/www/esimerkki.example.com``
+Tämän jälkeen syötin komennot
+    ``sudo chown -R $USER:$USER /var/www/esimerkki.example.com`` ja
+    ``sudo chmod -R 755 /var/www/esimerkki.example.com``
+Tämän jälkeen muokkasin sivuston etusivunäkymää micro-editorissa ja kirjoitin sinne seuraavanlaista html-koodia:
+
+
+
 
 
 
