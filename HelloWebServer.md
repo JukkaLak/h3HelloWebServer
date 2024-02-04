@@ -65,6 +65,7 @@ Tämän jälkeen testasin selaimessa, että vastaako palvelin osoitteessa http:/
 
 Tämä siis tarkoitti sitä, että palvelin toimii ja vastaa kutsuihin. Tämän jälkeen korvasin oletusetusivun syöttämällä komennon
     ```$ echo "Default"|sudo tee /var/www/html/index.html```
-
+Tämän jälkeen selainnäkymä näytti tältä:
+![Screenshot_2024-02-04_11-28-00.png]
 
 
