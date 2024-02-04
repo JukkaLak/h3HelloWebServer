@@ -70,6 +70,7 @@ Tämän jälkeen selainnäkymä näytti tältä:
 Tämän jälkeen avasin micro-editorin syöttämällä komennon
     ``micro sudoedit /etc/apache2/sites-available/esimerkki.example.com.conf``
 Kun micro-editori aukesi, syötin seuraavat komennot:
+![Screenshot_2024-02-04_11-50-26.png]
 
 
 
