@@ -94,7 +94,7 @@ Tämän jälkeen avasin jälleen micro-editorin komennolla
 Syötin editorissa aluksi tällaiset tiedot:
 ![Screenshot_2024-02-04_15-45-32.png](https://github.com/JukkaLak/h3HelloWebServer/blob/main/Screenshot_2024-02-04_15-45-32.png)
 
-Tämän jälkeen yritin ajaa komennot 
+Tämän jälkeen yritin ajaa komennon 
     ```sudo a2ensite esimerkki.example.com```ja käynnistää Apachen uudelleen ja kun testasin sivuston toimintaa, se toimi aluksi pelkästään localhostissa mutta ei osoitteessa http://esimerkki.example.com ja yritin vielä korjata tilannetta, mutta lopulta sivu ei toiminut ollenkaan, enkä saanut tätä ongelmaa ratkaistua.
     
 
