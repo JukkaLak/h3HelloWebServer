@@ -75,7 +75,8 @@ Tämän jälkeen komentoriviin tuli seuraavat tiedot:
 Tästä listauksesta tulee ilmi se, että palvelimelle on tehty GET-pyyntöjä, eli palvelinta on kutsuttu osoitteesta http://localhost ja se on vastannut kutsuihin. 
 Seuraavaksi katsoin error.log -tiedot komennolla
     ``sudo tail /var/log/apache2/error.log``
-
+Tämän jälkeen tulostui seuraavat tiedot:
+![Screenshot_2024-02-04_14-52-33.png]
 
 
 
