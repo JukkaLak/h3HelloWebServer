@@ -76,7 +76,10 @@ Tästä listauksesta tulee ilmi se, että palvelimelle on tehty GET-pyyntöjä, 
 Seuraavaksi katsoin error.log -tiedot komennolla
     ``sudo tail /var/log/apache2/error.log``
 Tämän jälkeen tulostui seuraavat tiedot:
-![Screenshot_2024-02-04_14-52-33.png]
+![Screenshot_2024-02-04_14-52-33.png](https://github.com/JukkaLak/h3HelloWebServer/blob/main/Screenshot_2024-02-04_14-52-33.png)
+
+Tästä käy ilmi, että mitään virhetilanteita ei ole ehtinyt tulla ja palvelin toimii normaalisti.
+
 
 
 
