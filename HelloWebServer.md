@@ -63,5 +63,8 @@ Tämän jälkeen testasin selaimessa, että vastaako palvelin osoitteessa http:/
 ![Screenshot_2024-02-03_15-17-21.png](https://github.com/JukkaLak/h3HelloWebServer/blob/main/Screenshot_2024-02-03_15-17-21.png)
 
 
-Tämä siis tarkoitti sitä, että palvelin toimii ja vastaa kutsuihin.
+Tämä siis tarkoitti sitä, että palvelin toimii ja vastaa kutsuihin. Tämän jälkeen korvasin oletusetusivun syöttämällä komennon
+    ```$ echo "Default"|sudo tee /var/www/html/index.html```
+
+
 
