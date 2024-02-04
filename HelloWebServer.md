@@ -62,7 +62,9 @@ Olin jo valmiiksi luonut itselleni Apache web-palvelimen ja se tapahtui siten, e
 Tämän jälkeen kokeilin selaimella vastaako palvelin osoitteessa http://localhost ja minulle avautui seuraavanlainen näkymä:
 ![Screenshot_2024-02-03_15-17-21.png](https://github.com/JukkaLak/h3HelloWebServer/blob/main/Screenshot_2024-02-03_15-17-21.png)
 
-Tämä siis tarkoitti sitä, että palvelin toimii. 
+Tämä siis tarkoitti sitä, että palvelin toimii. Tämän jälkeen poistin esimerkkisivun syöttämällä komennon 
+    ``echo "Default"|sudo tee /var/www/html/index.html``
+
 
 
 
