@@ -71,7 +71,7 @@ Tämän jälkeen selainnäkymä näytti tältä:
 Ensiksi katsoin access.log tiedot komennolla 
     ``sudo tail /var/log/apache2/access.log```
 Tämän jälkeen komentoriviin tuli seuraavat tiedot:
-![
+![Screenshot_2024-02-04_14-40-06.png]
 
 
 
